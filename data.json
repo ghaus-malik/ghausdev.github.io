@@ -21,17 +21,17 @@
     "name": "Muhammad Ghaus Malik",
     "photo": "/profile.jpeg",
     "affiliation": {
-      "text": "I'm a BS Software Engineering student @",
+      "text": "I'm a BS Software Engineering graduate of",
       "lab": { "name": "FAST-NUCES, Islamabad", "url": "https://www.nu.edu.pk/" }
     },
     "education": {
       "degree": "Bachelor of Science in Software Engineering",
       "university": "National University of Computer and Emerging Sciences (FAST-NUCES)",
       "location": "Islamabad, Pakistan",
-      "period": "Aug 2022 – Expected June 2026",
-      "cgpa": "3.86/4.0",
-      "honors": ["Rector's List (2024–2026)", "Dean's List (2023–2024)"],
-      "medals": "4x Gold Medalist (Fall '25, Spring '25, Fall '24, Fall '23), Silver Medalist (Spring '24)"
+      "period": "Aug 2022 – July 2026",
+      "cgpa": "3.88/4.0",
+      "honors": ["Magna Cum Laude", "Rector's List (2024–2026)", "Dean's List (2023–2024)"],
+      "medals": "Bronze Medalist (Graduation) — Ranked 3rd out of 350 | 4x Gold Medalist (Fall '25, Spring '25, Fall '24, Fall '23) | Silver Medalist (Spring '24)"
     },
     "researchInterests": [
       "Computer Vision",
@@ -39,9 +39,9 @@
       "Deep Learning"
     ],
     "skills": {
-      "languages": ["C/C++", "Python", "SQL", "LaTeX"],
-      "libraries": ["Pandas", "NumPy", "SciPy", "PyTorch", "TensorFlow", "OpenCV"],
-      "tools": ["MATLAB", "Git", "GitHub", "Docker"]
+      "languages": ["Python", "C/C++", "SQL", "LaTeX"],
+      "libraries": ["PyTorch", "TensorFlow", "OpenCV", "Pandas", "NumPy", "SciPy"],
+      "tools": ["Docker", "Git", "GitHub", "Linux/Ubuntu", "MATLAB", "Vercel", "ROS"]
     },
     "socials": [
       { "icon": "mail", "label": "Email", "url": "mailto:i222564@nu.edu.pk" },
@@ -61,49 +61,46 @@
           "name": "Integrating Generative AI and Genomic Perturbation in Breast Cancer Radiogenomics",
           "bullets": [
             "Developing conditional diffusion models and cGANs for multi-omics-conditioned image generation to map how individual genes influence tumor MRI characteristics.",
-            "Synthesizing medical images under single-gene-level perturbed omics conditions to uncover novel biomarkers and key molecular mechanisms driving imaging phenotypes like shape, texture, and intensity.",
-            "Architecting RadGMap, an interactive web-based tool linking imaging features with gene-level perturbations to support clinicians in early detection and personalized treatment strategies.",
-            "Conducting comprehensive statistical analysis and pathway enrichment, with findings being compiled for an upcoming journal publication."
+            "Synthesizing medical images under single-gene-level perturbed omics conditions to uncover novel biomarkers and key molecular mechanisms driving imaging phenotypes like shape, texture, and intensity."
           ]
         }
       ]
     },
     {
       "org": "Artificial Intelligence and Machine Learning (AIMS) Lab, FAST-NUCES — Research Assistant",
-      "dateRange": "August 2025 – Present",
+      "dateRange": "August 2025 – January 2026",
       "advisor": "AIMS Lab Faculty",
       "projects": [
         {
-          "name": "Detection of Physical Altercations in Public Places Using AI-Enabled Surveillance",
+          "name": "Detection of Physical Altercations or Atrocities in Public Places Using AI-Enabled Surveillance Systems",
           "bullets": [
-            "Conducting research on real-time violence and anomaly detection using deep learning and computer vision frameworks for public safety applications.",
-            "Designed and implemented Continual Learning mechanisms based on Retrospective Experience Replay Deep Neural Networks (RER-DNN) to enable models to adapt continuously without catastrophic forgetting.",
-            "Led experimentation for model generalization across multiple surveillance environments, improving detection accuracy and reducing false positives.",
-            "Contributed to the design of a planned nationwide deployment system across five FAST-NUCES campuses, featuring real-time alerting and cloud-based video analytics."
+            "Designed a confidence-based experience replay paradigm for spatiotemporal 3D CNNs, mitigating catastrophic forgetting in sequential learning and retaining 82.5% accuracy across 5 continuous tasks.",
+            "Developed a memory-bounded rehearsal mechanism utilizing 512-dimensional feature-level storage, achieving a 588x reduction in memory footprint (to just 2.34 MB) to preserve decision-boundary integrity and enable edge deployment in resource-constrained systems.",
+            "Investigated model optimization interference through comprehensive ablation studies and t-SNE feature space analyses, demonstrating that uncertainty-driven sampling outperforms standard random sampling retention by over 13% in constrained environments.",
+            "Built scalable, cloud-based analytics solutions for multi-campus FAST-NUCES deployment featuring instantaneous threat alerting."
           ]
         }
       ]
     },
     {
-      "org": "National Centre of Robotics and Automation (NCRA), UAV Lab, FAST-NUCES — Research Assistant",
+      "org": "UAV Dependability Lab, National Centre of Robotics and Automation (NCRA) — Research Assistant",
       "dateRange": "August 2024 – August 2025",
       "advisor": "NCRA Faculty",
       "projects": [
         {
-          "name": "Anomaly Detection in Aviation Cyber-Physical Systems",
+          "name": "A Comprehensive Experimental Evaluation of Anomaly Detection Techniques in Aviation Cyber-Physical Systems",
           "bullets": [
             "Conducted anomaly detection research for aviation cyber-physical systems to enhance UAV reliability and flight safety.",
-            "Designed and assessed deep learning architectures including Autoencoders, Temporal CNNs, and LSTMs on large-scale NASA aviation datasets.",
-            "Supervised undergraduate interns during Summer 2025, providing guidance on model experimentation and interpretability.",
-            "Performed structured literature reviews to support algorithm selection and experimental design."
+            "Evaluated deep learning architectures including Autoencoders, Temporal CNNs, and LSTMs on large-scale NASA aviation datasets for abnormal behavior detection.",
+            "Supervised undergraduate interns during Summer 2025, providing guidance on model experimentation, pipeline development, and interpretability."
           ]
         },
         {
-          "name": "Q-DERMX — Quantum-Classical AI for Skin Disease Detection (Blaise Pascal Quantum Challenge)",
+          "name": "Q-DERMX: Hybrid Quantum-Classical AI for Medical Diagnostics (Blaise Pascal Quantum Challenge)",
           "bullets": [
-            "Engineered a hybrid Quantum-Classical AI classifier integrating ResNet18 with Parameterized Quantum Circuits (PQCs) via PennyLane to distinguish visually similar skin diseases.",
-            "Achieved 82.71% classification accuracy, outperforming classical CNN baselines by utilizing quantum feature mapping to reduce labeled data dependency by up to 50%.",
-            "Recognized among the Global Top 15 teams out of 137 across 70+ nationalities."
+            "Built a hybrid classifier for the Blaise Pascal Global Quantum Challenge (France), integrating ResNet-18 with Parameterized Quantum Circuits (PQCs) via PennyLane to distinguish visually similar skin pathologies.",
+            "Applied Angle Embedding and Strongly Entangling Layers to project features into a high-dimensional Hilbert space, achieving 92.71% accuracy and resolving visual ambiguities between eczema and psoriasis.",
+            "Ranked among the Top 15 teams globally (out of 137)."
           ]
         }
       ]
@@ -128,7 +125,7 @@
   "publications": [
     {
       "title": "Confidence-Based Experience Replay for Continual Learning in Violence Detection Systems",
-      "authors": "Muhammad Ghaus, Zoobiya Aalam, Shahela Saif, Saira Qamar, Hasan Mujtaba",
+      "authors": "Zoobiya Aalam, Muhammad Ghaus, Shahela Saif, Saira Qamar, Hasan Mujtaba",
       "venue": "Image and Vision Computing – Elsevier",
       "year": "2025",
       "status": "Submitted",
@@ -139,7 +136,7 @@
       "authors": "Muhammad Ghaus, Qian Liu",
       "venue": "Working Paper",
       "year": "2026",
-      "status": "In Preparation",
+      "status": "Manuscript in Preparation",
       "links": ["paper"]
     }
   ],
@@ -147,7 +144,7 @@
   "projects": [
     {
       "title": "Quantum-Classical AI Framework for Skin Disease Classification",
-      "desc": "Engineered a hybrid Quantum-Classical AI diagnostic pipeline integrating ResNet18 and Parameterized Quantum Circuits to classify visually similar skin diseases with 82.71% accuracy.",
+      "desc": "Engineered a hybrid Quantum-Classical AI diagnostic pipeline integrating ResNet-18 and Parameterized Quantum Circuits to classify visually similar skin pathologies with 92.71% accuracy.",
       "tags": ["PyTorch", "PennyLane", "Quantum ML"]
     },
     {
@@ -169,6 +166,7 @@
 
   "showNews": false,
   "news": [
+    { "date": "July 2026", "content": "Graduated BS Software Engineering from FAST-NUCES — Bronze Medalist (Ranked 3rd out of 350), Magna Cum Laude, CGPA 3.88/4.0." },
     { "date": "Jan 2026", "content": "Started Mitacs Globalink Research Internship at the University of Winnipeg, Canada under Dr. Qian Liu." },
     { "date": "Fall 2025", "content": "Gold Medal — Secured highest semester GPA in a batch of 350 students (4th consecutive Gold)." },
     { "date": "Fall 2025", "content": "Submitted paper on Confidence-Based Experience Replay for Continual Learning to Image and Vision Computing – Elsevier." },
@@ -186,30 +184,32 @@
     { "date": "Fall 2023", "content": "Gold Medal — Secured highest semester GPA in a batch of 350 students (1st Gold)." },
     { "date": "Sept 2023", "content": "Appointed Head of AI Group at Google Developer Student Club (GDSC), FAST-NUCES." },
     { "date": "2023–2026", "content": "FAST Merit Scholarship recipient for top academic performance." },
-    { "date": "2024", "content": "Global Top 15 Finalist in Blaise Pascal Quantum Challenge (Q-DERMX) out of 137 teams across 70+ nationalities." }
+    { "date": "2024", "content": "Global Top 15 Finalist in Blaise Pascal Quantum Challenge (Q-DERMX) out of 137 teams." }
   ],
 
   "service": {
     "roles": [
-      { "role": "Lead of Research & Development", "org": "IEEE Student Chapter, FAST-NUCES", "period": "Sept 2025 – Present" },
+      { "role": "Lead of Research & Development", "org": "IEEE Student Chapter, FAST-NUCES", "period": "Sept 2025 – July 2026" },
       { "role": "AI-Web Dev Marathon Head", "org": "NASCON'25, National Computing Conference", "period": "Feb 2025" },
-      { "role": "Head of Workshop & Development", "org": "FAST Software Engineering Society", "period": "Sept 2024 – May 2025" },
-      { "role": "Head of Artificial Intelligence Group", "org": "Google Developer Student Club (GDSC)", "period": "Sept 2023 – May 2024" },
-      { "role": "AI & Machine Learning Mentor", "org": "Foundation of Welfare (IUB Social Welfare Society)", "period": "June 2023 – Aug 2023" }
+      { "role": "Lead of Workshop & Development", "org": "FAST Software Engineering Society", "period": "Sept 2024 – May 2025" },
+      { "role": "Head of Artificial Intelligence Group", "org": "Google Developer Student Club (GDSC)", "period": "Sept 2023 – May 2024" }
     ],
     "teaching": [
-      { "course": "Software Quality Engineering", "semester": "Fall '25", "advisor": "Dr. Atif Aftab Ahmed Jilani" },
-      { "course": "Operating Systems", "semester": "Spring '25", "advisor": "Ms. Anum Kaleem" },
-      { "course": "Software Design and Analysis", "semester": "Fall '24", "advisor": "Syeda Javaria Imtiaz" },
-      { "course": "Data Structures (Lab Demonstrator)", "semester": "Fall '24", "advisor": "Sir Wasif Ali" }
+      { "course": "Software Quality Engineering", "semester": "Fall '25", "advisor": "FAST-NUCES" },
+      { "course": "Operating Systems", "semester": "Spring '25", "advisor": "FAST-NUCES" },
+      { "course": "Software Design and Analysis", "semester": "Fall '24", "advisor": "FAST-NUCES" },
+      { "course": "Data Structures (Lab Demonstrator)", "semester": "Fall '24", "advisor": "FAST-NUCES" }
     ],
     "awards": [
+      "Mitacs Globalink Research Internship — Fully-funded international research internship (2026)",
+      "Bronze Medalist (Graduation) — Ranked 3rd out of 350 students",
       "4x Gold Medalist (Fall '25, Spring '25, Fall '24, Fall '23) — Highest GPA in batch of 350",
       "Silver Medalist (Spring '24) — Second-highest GPA in batch of 350",
-      "Rector's List (2024–2026) — Perfect GPA and exceptional abilities",
+      "Magna Cum Laude",
+      "Rector's List (2024–2026) — Consistent 4.0/4.0 semester GPAs",
       "Dean's List (2023–2024) — Academic excellence",
-      "FAST Merit Scholarship (2023–2026) — Top academic performance",
-      "Global Top 15 Finalist — Blaise Pascal Quantum Challenge (Q-DERMX)"
+      "FAST Merit Scholarship (2023–2026) — Sustained excellence in Software Engineering",
+      "Global Top 15 Finalist — Blaise Pascal Quantum Challenge (Q-DERMX), out of 137 teams"
     ]
   },
 
